@@ -19,18 +19,30 @@ def min_dist(points, linestrings):
     # linestrings is the series of geopandas dataframe geometry column
 
     dist = []
-    for i in points:
+    for point in points:
         dis = []
-        for j in linestrings:
-            dis.append(j.distance(i))
+        for line in linestrings: # for each line find the closest point
+            dis.append(line.distance(point))
         
-        dist.append(np.array(dis).argmin())
+        dist.append(np.array(dis).argmin()) # add the line with minimum distance to the distance array
     
     return np.array(dist)
 
+# function to find the nearest road blocks in the road network data 
+# to each road segment in traffic volume data to find annual daily traffic for each road block
+
+def min_block(network, segments):
+    dist = []
+    for segment in segments.geometry:
+        d = []
+        for block in network.geometry:
+            d.append(segment.distance(block))
+    d = np.array(d)
+    return dist.append(d.argmin())
+    
+
 # Joining two dataframes based on the same indices
-# if the indices are different for two dataframes, make them same by setting the indices of 
-# one dataframe as the indices of another
+
 def add_df(df1, df2):
 
     # df1 and df2 are two pandas dataframes
@@ -44,7 +56,8 @@ def add_df(df1, df2):
     return df1.join(df2)
 
 
-# Saving the dataframe as a csv file or pickle file
+
+# We can save the dataframe as a csv file or pickle file
 
 # accident.to_csv('data/accident.csv', index = False)
 # accident.to_pickle('data/accident.pickle')
