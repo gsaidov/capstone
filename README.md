@@ -51,7 +51,7 @@ Adding more features such as weather, population may improve the prediction of t
 
 ![Accidents by day of week](/Users/gulomjon/galvanize/capstone/images/accident_by_day.png)
 
-
+![Accidents by day of week](/Users/gulomjon/galvanize/capstone/images/accidents_by_time.png)
 
 
 
