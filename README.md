@@ -49,7 +49,7 @@ Since there are many factors that may cause individual traffic accidents, using 
 Future work:
 Adding more features such as weather, population may improve the prediction of traffic accidents. And it is important to note that individual traffic accidents have different features themselves, for example, time of accident, day of accident, light condition, and others.  
 
-
+![Accidents by day of week](/Users/gulomjon/galvanize/capstone/images/accident_by_day.png)
 
 
 
