@@ -25,9 +25,11 @@ Project steps:
 1.
 Open traffic data from Seattle city is obtained and merged with the traffic volume data of the city by corresponding each accident location to the nearest road segment in the traffic volume data.
 
-3.  The traffic volume data is merged with the road network data to get the road features for each road segment
+2. 
+ The traffic volume data is merged with the road network data to get the road features for each road segment
 
-3. Run a linear regression, random forest regressor and gradient boosting regressor models on 2016 traffic accident counts per road segment using the previous year’s traffic accident count, annual daily traffic volume, speed limit of the road, whether the road is in downtown or not. 
+3.
+ Run a linear regression, random forest regressor and gradient boosting regressor models on 2016 traffic accident counts per road segment using the previous year’s traffic accident count, annual daily traffic volume, speed limit of the road, whether the road is in downtown or not. 
 
 Results:
 Compare the results to the benchmark model by root mean square error. The root mean square error (RMSE) is slightly lower for the linear model than the other models:
