@@ -30,9 +30,9 @@ Open traffic data from Seattle city is obtained and merged with the traffic volu
 3. Run a linear regression, random forest regressor and gradient boosting regressor models on 2016 traffic accident counts per road segment using the previous year’s traffic accident count, annual daily traffic volume, speed limit of the road, whether the road is in downtown or not. 
 
 Results:
-Compare the results to the benchmark model by root mean square error. The root mean square error is slightly lower for the linear model than the other models:
+Compare the results to the benchmark model by root mean square error. The root mean square error (RMSE) is slightly lower for the linear model than the other models:
 
-RMSE
+RMSE:
 
 Benchmark = 4.31,
 Linear Regression = 4.13,
@@ -45,7 +45,7 @@ Since there are many factors that may cause individual traffic accidents, using 
 Future work:
 Adding more features such as weather, population may improve the prediction of traffic accidents. And it is important to note that individual traffic accidents have different features themselves, for example, time of accident, day of accident, light condition, and others. The plot below show the number of accidents by day and time:
 
-![Accidents by day](images/accident_by_day.png =50x60)
+![Accidents by day](images/accident_by_day.png)
 ![Accidents by day](images/accidents_by_time.png)
 
 
