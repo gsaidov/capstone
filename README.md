@@ -34,9 +34,9 @@ Compare the results to the benchmark model by root mean square error. The root m
 
 RMSE
 
-Benchmark = 4.31
-Linear Regression = 4.13
-Random Forest = 4.21
+Benchmark = 4.31,
+Linear Regression = 4.13,
+Random Forest = 4.21,
 Gradient Boosting = 4.20
 
 
