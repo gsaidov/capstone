@@ -4,7 +4,7 @@ Car accidents cause a lot of injuries and death. Data science can be used for go
 
 Project Goal:
 
-Predict traffic the number of accidents for the road segments of Seattle City using road features such as geolocation, surface width, segment length, the slope of the segment. Finding out possible relationships of the road segments with accidents rates will have a number of applications:
+Predict the number of accidents for the road segments of Seattle City using road features such as geolocation, surface width, segment length, the slope of the segment. Finding out possible relationships of the road segments with accidents rates will have a number of applications:
 
 Finding out possible causes of accidents will have a number of applications:
 
