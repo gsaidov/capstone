@@ -52,7 +52,7 @@ Since there are many factors that may cause individual traffic accidents, using 
 Adding more features such as weather, population may improve the prediction of traffic accidents. And it is important to note that individual traffic accidents have different features themselves, for example, time of accident, day of accident, light condition, and others. The plot below show the number of accidents by day and time:
 
 ![Accidents by day](images/accident_by_day.png)
-![Accidents by day](images/accidents_by_time.png)
+![Accidents by day](images/weather.png)
 
 
 
