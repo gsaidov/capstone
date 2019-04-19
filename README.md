@@ -30,11 +30,11 @@ In this project, three data sets are used: traffic volume data of the road segme
 
 # **Results:**
 
-Compare the results to the benchmark model by root mean square error. The root mean square error (RMSE) is slightly lower for the linear model than the other models:
+Compare the results to the baseline model by root mean square error. The root mean square error (RMSE) is slightly lower for the linear model than the other models:
 
 # **RMSE:**
 
-Benchmark = 4.31,
+Baseline = 4.31,
 Linear Regression = 4.13,
 Random Forest = 4.21,
 Gradient Boosting = 4.20
@@ -49,7 +49,7 @@ Below is the partial dependence plot:
 Since there are many factors that may cause individual traffic accidents, using only road features may not give the best results in predicting the number accidents of the road segments.
 
 # **Future work:**
-Adding more features such as weather, population may improve the prediction of traffic accidents. And it is important to note that individual traffic accidents have different features themselves, for example, time of accident, day of accident, light condition, and others. The plot below show the number of accidents by day and time:
+Adding more features such as weather, population may improve the prediction of traffic accidents. And it is important to note that individual traffic accidents have different features themselves, for example, time of accident, day of accident, light condition, and others. The plot below show the number of accidents by day of week.
 
 ![Accidents by day](images/accident_by_day.png)
 
