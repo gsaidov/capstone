@@ -34,9 +34,7 @@ Compare the results to the baseline model by root mean square error. The baselin
 
 # Maps for accidents, roads and segments.
 
-<p>
-    <img src="images/maps.png" width="220" height="240" />
-</p>
+![Accident points and road segments](images/maps.png)
 
 
 # **RMSE:**
