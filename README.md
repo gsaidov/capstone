@@ -32,6 +32,10 @@ In this project, three data sets are used: traffic volume data of the road segme
 
 Compare the results to the baseline model by root mean square error. The baseline model is predicting the number of accidents using the number from the previous year. The root mean square error (RMSE) is slightly lower for the linear model than the other models:
 
+# Maps for accidents, roads and segments.
+
+![Accidents by day](images/maps.png)
+
 # **RMSE:**
 
 Baseline = 4.31,
@@ -44,7 +48,7 @@ Although linear linear regression improved the model, the data is mostly noise.
 
 Below is the partial dependence plot:
 
-![Accidents by day](images/partial_dependenc_plot.png)
+![Partial Dependence Plot](images/partial_dependenc_plot.png)
 
 
 Since there are many factors that may cause individual traffic accidents, using only road features may not give the best results in predicting the number accidents of the road segments.
